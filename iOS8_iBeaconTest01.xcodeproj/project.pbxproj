@@ -15,6 +15,8 @@
 		E1E251101A39652800B021C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E2510F1A39652800B021C8 /* Images.xcassets */; };
 		E1E251131A39652800B021C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1E251111A39652800B021C8 /* LaunchScreen.xib */; };
 		E1E2511F1A39652800B021C8 /* iOS8_iBeaconTest01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E2511E1A39652800B021C8 /* iOS8_iBeaconTest01Tests.m */; };
+		E1E251291A39653F00B021C8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E251281A39653F00B021C8 /* CoreLocation.framework */; };
+		E1E2512B1A39702900B021C8 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = E1E2512A1A39702900B021C8 /* readme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		E1E251181A39652800B021C8 /* iOS8_iBeaconTest01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS8_iBeaconTest01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E2511D1A39652800B021C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1E2511E1A39652800B021C8 /* iOS8_iBeaconTest01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS8_iBeaconTest01Tests.m; sourceTree = "<group>"; };
+		E1E251281A39653F00B021C8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E1E2512A1A39702900B021C8 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1E251291A39653F00B021C8 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,8 @@
 		E1E250F31A39652800B021C8 = {
 			isa = PBXGroup;
 			children = (
+				E1E2512A1A39702900B021C8 /* readme.txt */,
+				E1E251281A39653F00B021C8 /* CoreLocation.framework */,
 				E1E250FE1A39652800B021C8 /* iOS8_iBeaconTest01 */,
 				E1E2511B1A39652800B021C8 /* iOS8_iBeaconTest01Tests */,
 				E1E250FD1A39652800B021C8 /* Products */,
@@ -204,6 +211,7 @@
 			files = (
 				E1E2510E1A39652800B021C8 /* Main.storyboard in Resources */,
 				E1E251131A39652800B021C8 /* LaunchScreen.xib in Resources */,
+				E1E2512B1A39702900B021C8 /* readme.txt in Resources */,
 				E1E251101A39652800B021C8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +424,7 @@
 				E1E251241A39652800B021C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1E251251A39652800B021C8 /* Build configuration list for PBXNativeTarget "iOS8_iBeaconTest01Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				E1E251271A39652800B021C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
