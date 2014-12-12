@@ -25,6 +25,7 @@
     _locationManager.delegate = self;
     
     [_locationManager requestAlwaysAuthorization]; // iOS8
+    // [_locationManager requestWhenInUseAuthorization]; // iOS8
     
     [self chkBeaconStart];
 }

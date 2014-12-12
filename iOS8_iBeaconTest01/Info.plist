@@ -5,9 +5,9 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string></string>
+	<string>Always</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>When in use</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
